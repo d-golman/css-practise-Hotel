@@ -1,0 +1,321 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    margin: 0 0;
+    padding: 0 0;
+    text-decoration: none;
+}
+
+nav {
+    background: #333;
+    color: white;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    overflow: auto;
+    padding: 0 15px;
+}
+
+#logo {
+    float: left;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    margin: 15px 0px;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+}
+
+nav li {
+    float: left;
+}
+
+.nav-item a {
+    display: block;
+    cursor: pointer;
+    padding: 20px;
+    font-size: 18px;
+    color: white;
+}
+
+a.active {
+    color: #f7c08a;
+    background: #444;
+}
+
+.nav-item a:hover {
+    background: #444;
+    color: #f7c08a;
+}
+
+#preview {
+    text-align: center;
+    background: url(/image_resources/showcase.jpg);
+    background-position-y: center;
+    height: 600px;
+}
+
+.content {
+    margin-top: 200px;
+    color: white;
+}
+
+.content h1 {
+    font-size: 60px;
+    margin: 25px;
+    color: white;
+}
+
+.content p {
+    font-size: 20px;
+}
+
+h1 span {
+    color: #f7c08a;
+}
+
+.content a {
+    display: block;
+    width: 180px;
+    margin: 35px auto;
+    padding: 15px;
+    background: rgba(50, 50, 50, 0.9);
+    color: white;
+    font-size: 18px;
+}
+
+.content a:hover {
+    background: #f7c08a;
+    color: #333;
+}
+
+#history {
+    overflow: hidden;
+    height: 450px;
+}
+
+#left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+    background: url(/image_resources/photo-1.jpg);
+}
+
+#right {
+    float: right;
+    width: 50%;
+    text-align: center;
+    height: 100%;
+    color: white;
+    padding: 25px;
+}
+
+#right h3 {
+    font-size: 30px;
+    margin: 25px;
+}
+
+#right h3 span {
+    color: #f7c08a;
+}
+
+#right p {
+    font-size: 18px;
+}
+
+#right a {
+    display: block;
+    width: 150px;
+    margin: 35px auto;
+    padding: 15px;
+    background: white;
+    color: #333;
+    font-size: 18px;
+}
+
+#right a:hover {
+    background: #f7c08a;
+}
+
+#advantages {
+    color: #333;
+    overflow: hidden;
+}
+
+.advantage {
+    width: 33.3%;
+    float: left;
+    height: 300px;
+    text-align: center;
+    padding: 50px;
+}
+
+.advantage h3 {
+    padding: 25px;
+
+}
+
+.bg-light {
+    background: rgb(241, 241, 231);
+}
+
+.bg-primary {
+    background: #f7c08a;
+}
+
+.bg-dark {
+    background: #333333;
+}
+
+footer {
+    background: #444;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    padding: 25px
+}
+
+#info {
+    overflow: auto;
+    padding: 55px;
+}
+
+.left-text {
+    width: 50%;
+    float: left;
+}
+
+.left-text h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.left-text p {
+    padding-top: 15px;
+    font-size: 18px;
+}
+
+.rounded-image {
+    width: 50%;
+    float: right;
+}
+
+.rounded-image img {
+    display: block;
+    border-radius: 5%;
+    width: 70%;
+    margin: auto auto;
+}
+
+#testimonials {
+    background: url(/image_resources/test-bg.jpg);
+    height: 600px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#testimonials h2 {
+    font-size: 40px;
+    color: white;
+    margin: 30px;
+    margin-top: 80px;
+}
+
+.review {
+    text-align: justify;
+    padding: 15px;
+    width: 100%;
+    border-radius: 7px;
+    margin-bottom: 15px;
+    opacity: 0.8;
+}
+
+.profile {
+    float: left;
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.review p {
+    margin: 20px;
+
+}
+
+#feedback p {
+    font-size: 18px;
+    color: #333;
+    margin: 20px 0;
+}
+
+#feedback h1 {
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+
+#feedback label {
+    display: block;
+    margin: 10px 0;
+}
+
+#feedback input {
+    width: 100%;
+    min-height: 35px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ddd;
+    padding: 5px;
+}
+
+#feedback textarea {
+    display: block;
+    width: 100%;
+    min-height: 185px;
+    border-style: solid;
+    border-color: #ddd;
+}
+
+#feedback button {
+    margin: 40px 0;
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    border-style: none;
+    background: #333;
+    color: white;
+    cursor: pointer;
+}
+
+#feedback button:hover {
+    background: #666;
+}
+
+#contacts .container{
+    padding: 0 0;
+}
+
+.contact {
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    padding: 50px 10px;
+    color: white;
+}
+
+.contact h4 {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+
+.clr {
+    clear: both;
+}
